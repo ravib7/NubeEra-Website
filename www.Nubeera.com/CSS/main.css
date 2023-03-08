@@ -1115,7 +1115,7 @@ header.fixed-header {
 .getStartedButton {
   padding: 20px 40px;
   display: inline-block;
-  background-color: #f9c420;
+  background-color: #007bff;
   border: 0;
   cursor: pointer;
   transition: all linear 0.3s;
@@ -3118,7 +3118,7 @@ header.fixed-header {
     background: #908f8f;
   }
   .logo img {
-    height: 70px;
+    height: 80px;
   }
   .logo {
     margin: 0;
