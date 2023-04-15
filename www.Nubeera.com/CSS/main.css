@@ -23,7 +23,7 @@
 body {
   background: #fff;
   color: #212529;
-  line-height: 22px;
+  line-height: 30px;
   font-size: 16px;
   font-family: Poppins, sans-serif;
 }
@@ -74,6 +74,7 @@ button:focus {
 img {
   max-width: 100%;
   vertical-align: middle;
+  margin-top: 4px;
 }
 .header {
   position: absolute;
@@ -1033,10 +1034,11 @@ header.fixed-header {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 9;
+  height: 13%;
+  z-index: 12;
 }
 .header.fixed-header .navbar-nav li.get_link a {
-  padding: 1.3rem 10px;
+  padding: 1.3rem 10px
 }
 .header.fixed-header .navbar-nav li a {
   padding: 1.3rem 0;
@@ -1046,6 +1048,7 @@ header.fixed-header {
 }
 .header.fixed-header .logo {
   margin: 0;
+  position: fixed;
 }
 .header.fixed-header .logo img {
   height: 70px;
